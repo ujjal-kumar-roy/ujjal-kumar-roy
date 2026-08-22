@@ -240,8 +240,10 @@ Automated payroll processing with dynamic reporting, leave management, attendanc
 
 <div align="center">
 
+<!-- Stats/top-langs cards temporarily disabled: github-readme-stats.vercel.app is returning 503 DEPLOYMENT_PAUSED upstream (paused by its owner) as of Aug 2026, so these were rendering as broken images. Remove this comment wrapper once the service is back, or replace with a self-hosted instance. See https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own
 <img width="49%" alt="Ujjal Kumar Roy GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ujjal-kumar-roy&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e"/>
 <img width="41%" alt="Most used programming languages: JavaScript, TypeScript, PHP, Python" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ujjal-kumar-roy&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e"/>
+-->
 
 <br/>
 
