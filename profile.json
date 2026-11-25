@@ -1,0 +1,197 @@
+{
+  "github": "ujjal-kumar-roy",
+  "comment": "Ujjal Kumar Roy — Senior Full-Stack Software Engineer · Next.js · React · TypeScript · Node.js · NestJS · Dhaka, Bangladesh · Open to remote & onsite",
+
+  "name": "Ujjal",
+  "display_name": "Ujjal Kumar Roy",
+  "initials": "UR",
+  "tagline": "Senior full-stack software engineer in Dhaka, Bangladesh. Next.js, React, TypeScript, Node.js and NestJS, from payment infrastructure for 26+ institutions to a national-scale e-commerce frontend.",
+  "hero_alt": "Ujjal Kumar Roy — Senior Full-Stack Software Engineer (Next.js, React, TypeScript, Node.js, NestJS) based in Dhaka, Bangladesh. Open to remote, hybrid and onsite roles.",
+  "tags": ["Next.js · React", "TypeScript", "Node.js · NestJS", "Payments & fintech", "Microservices"],
+  "corner": "Open to work",
+  "corner_color": "go",
+  "corner_dot": true,
+
+  "links": [
+    { "kind": "linkedin", "label": "LinkedIn", "handle": "in/ujjalkumarroy", "url": "https://www.linkedin.com/in/ujjalkumarroy/", "color": "blue", "alt": "Ujjal Kumar Roy on LinkedIn" },
+    { "kind": "mail", "label": "Email", "handle": "ujjalroy7862@gmail.com", "url": "mailto:ujjalroy7862@gmail.com?subject=Opportunity%20for%20Ujjal%20Kumar%20Roy", "color": "red", "alt": "Email Ujjal Kumar Roy at ujjalroy7862@gmail.com" },
+    { "kind": "globe", "label": "Portfolio", "url": "https://my-portfolio-c465b.web.app/", "color": "purple", "alt": "Ujjal Kumar Roy developer portfolio website" },
+    { "kind": "code", "label": "LeetCode", "handle": "ujjalroy7862", "url": "https://leetcode.com/ujjalroy7862", "color": "amber", "alt": "Ujjal Kumar Roy on LeetCode" },
+    { "kind": "stack", "label": "Stack Overflow", "handle": "ujjal-roy", "url": "https://stackoverflow.com/users/13442641/ujjal-roy", "color": "teal", "alt": "Ujjal Kumar Roy on Stack Overflow" }
+  ],
+
+  "sections": [
+    {
+      "type": "whoami", "name": "about",
+      "label": "About me", "chip": "4+ years shipping production systems", "label_color": "amber",
+      "host": "ujjal@dhaka",
+      "alt": "About Ujjal Kumar Roy: senior software engineer at Frontier Semiconductor in Dhaka, Bangladesh, with 4+ years shipping production JavaScript and TypeScript systems: national education payment portals for 26+ institutions, the Bangladesh judiciary's payment platform, a US fintech dashboard and, today, the frontend of a national-scale e-commerce platform. Work sits where product meets reliability: multi-gateway payment integration, SSO and government compliance, role-based access control and production debugging. Currently exploring agentic development and AI-integrated backends.",
+      "blocks": [
+        { "cmd": "whoami", "bold_first": true, "lines": [
+          "ujjal  ·  senior software engineer @ Frontier Semiconductor  ·  Dhaka, Bangladesh",
+          "4+ years shipping production JavaScript and TypeScript systems."
+        ]},
+        { "cmd": "cat shipped.txt", "arrows": true, "lines": [
+          "National education payment portals for 26+ polytechnic institutions",
+          "The Bangladesh judiciary's payment platform",
+          "A US fintech dashboard for 500+ active users",
+          "Today: the frontend of a national-scale e-commerce platform"
+        ]},
+        { "cmd": "cat focus.txt", "arrows": true, "lines": [
+          "Where product meets reliability",
+          "Multi-gateway payments, SSO and government compliance, role-based access control",
+          "And the production debugging that keeps it all running"
+        ]},
+        { "cmd": "cat exploring.txt", "arrows": true, "lines": [
+          "Agentic development and AI-integrated backends",
+          "Systems that don't just respond, but decide"
+        ]}
+      ]
+    },
+    {
+      "type": "tiles", "name": "numbers", "cols": 3,
+      "alt_prefix": "Ujjal Kumar Roy in numbers: ",
+      "items": [
+        { "value": "4+", "label": "years shipping production systems", "icon": "calendar", "color": "blue" },
+        { "value": "26+", "label": "institutions served", "icon": "cap", "color": "green" },
+        { "value": "500+", "label": "active users", "icon": "people", "color": "amber" },
+        { "value": "250+", "label": "production bugs fixed", "icon": "bug", "color": "purple" },
+        { "value": "60%", "label": "faster transaction processing", "icon": "bolt", "color": "teal" },
+        { "value": "314+", "label": "DSA problems solved", "icon": "code", "color": "red" }
+      ]
+    },
+    {
+      "type": "snapshot", "name": "recruiter",
+      "label": "Recruiter snapshot", "chip": "the 30-second version", "label_color": "blue",
+      "rows": [
+        { "key": "Current role", "value": "Senior Software Engineer @ Frontier Semiconductor Bangladesh Ltd." },
+        { "key": "Best-fit titles", "value": "Senior Full-Stack Engineer · Frontend Engineer (React / Next.js) · Backend Engineer (Node.js / NestJS) · Fintech / Payments Engineer" },
+        { "key": "Core stack", "value": "TypeScript · Next.js · React · Node.js · NestJS · PostgreSQL / MySQL · Redis · RabbitMQ · AWS · Docker" },
+        { "key": "Domains", "value": "Payments & fintech · e-commerce · government platforms · HR & CRM" },
+        { "key": "Location", "value": "Dhaka, Bangladesh (UTC+6) · open to relocation and visa sponsorship" },
+        { "key": "Work setup", "value": "Remote, hybrid or onsite · full-time or contract · overlap with US, EU, Middle East and APAC hours" },
+        { "key": "Fastest contact", "value": "ujjalroy7862@gmail.com · linkedin.com/in/ujjalkumarroy" }
+      ]
+    },
+    {
+      "type": "cards", "name": "bring",
+      "label": "What I bring to a team", "chip": "5 things you get", "label_color": "green",
+      "items": [
+        { "title": "Full-stack delivery", "status": "end to end", "icon": "layers", "color": "blue",
+          "desc": "Features owned end to end, from schema and REST API design to accessible, responsive React and Next.js interfaces.",
+          "tags": ["Schema design", "REST APIs", "React", "Next.js"] },
+        { "title": "Payments & fintech", "status": "real money, daily", "icon": "payment", "color": "green",
+          "desc": "Multi-gateway payment flows, reconciliation, transaction monitoring and SMS pipelines that handle real money daily.",
+          "tags": ["Multi-gateway", "Reconciliation", "Monitoring", "SMS"] },
+        { "title": "Architecture & security", "status": "SSO · RBAC", "icon": "shield", "color": "amber",
+          "desc": "Microservices, SSO / CDAP authentication, government compliance and multi-tenant role-based access control.",
+          "tags": ["Microservices", "SSO / CDAP", "Compliance", "RBAC"] },
+        { "title": "Production reliability", "status": "250+ bugs fixed", "icon": "pulse", "color": "purple",
+          "desc": "250+ production bugs resolved and a 60% cut in transaction processing time.",
+          "tags": ["Debugging", "Performance", "Production"] },
+        { "title": "Team-ready engineering", "status": "review · CI/CD", "icon": "people", "color": "teal",
+          "desc": "Code review, clean Git workflows, Docker environments, CI/CD and documentation the next engineer can use.",
+          "tags": ["Code review", "Git", "Docker", "CI/CD"] }
+      ]
+    },
+    {
+      "type": "chips", "name": "stack",
+      "label": "Tech stack", "chip": "what I ship with", "label_color": "purple",
+      "groups": [
+        { "title": "Core", "note": "daily driver", "color": "blue",
+          "items": ["TypeScript", "JavaScript", "Next.js", "React", "Node.js", "NestJS", "Express"] },
+        { "title": "Data, messaging & cloud", "color": "green",
+          "items": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "RabbitMQ", "AWS", "Google Cloud", "Docker", "Linux"] },
+        { "title": "Also fluent", "color": "amber",
+          "items": ["Vue.js", "Tailwind CSS", "Redux", "Laravel", "PHP", "Python", "Django"] }
+      ],
+      "details": {
+        "summary": "Full skills list",
+        "head": ["Layer", "Tools & Technologies"],
+        "rows": [
+          ["Languages", "TypeScript · JavaScript (ES6+) · PHP · Python · SQL"],
+          ["Frontend", "Next.js 15 · React · Vue.js · Redux · TailwindCSS · Shadcn UI · Figma to code"],
+          ["Backend", "Node.js · NestJS · Express · Laravel 10 · Django · REST API design · Microservices"],
+          ["Data & messaging", "PostgreSQL · MySQL · MongoDB · Redis · RabbitMQ"],
+          ["DevOps & Cloud", "AWS · Google Cloud Platform (GCP) · Docker · Linux · Nginx · CI/CD · Git & GitHub"],
+          ["Integrations", "Ekpay payment gateway · Teletalk SMS gateway · SSO / CDAP · third-party REST APIs"],
+          ["Practices", "System design · Role-based access control · Code review · Agile delivery · SEO optimisation"]
+        ]
+      }
+    },
+    {
+      "type": "timeline", "name": "experience",
+      "label": "Experience", "chip": "3 teams, 4+ years", "label_color": "teal",
+      "items": [
+        { "company": "Frontier Semiconductor Bangladesh Ltd.", "role": "Senior Software Engineer", "dates": "Jun 2025 – Present", "color": "blue",
+          "desc": "Leading frontend development for a national-scale e-commerce platform, with full-stack TypeScript services behind it.",
+          "tags": ["Next.js", "React", "TypeScript", "Node.js", "NestJS", "Redis", "RabbitMQ", "AWS"] },
+        { "company": "Soft BD Ltd.", "role": "Software Engineer", "dates": "Aug 2023 – May 2025", "color": "green",
+          "desc": "Led development of national-scale payment infrastructure serving 26+ polytechnic institutions and the Bangladesh judiciary. Architected government security and SSO integration, resolved 250+ production bugs, and shipped enterprise payroll and CRM platforms.",
+          "tags": ["Laravel", "Vue.js", "MySQL", "Payment gateways", "SSO / CDAP"] },
+        { "company": "Fliqaindia", "role": "Software Engineer, Intern", "dates": "Apr 2023 – Aug 2023", "color": "amber",
+          "desc": "Converted Figma designs into production React applications and owned GCP deployments with SEO optimisation.",
+          "tags": ["React", "GCP", "SEO"] }
+      ]
+    },
+    {
+      "type": "cards", "name": "work", "linked": true,
+      "label": "Featured work", "chip": "all live in production · click a card", "label_color": "red",
+      "items": [
+        { "title": "Judipay", "status": "Bangladesh judiciary", "icon": "scales", "color": "purple",
+          "desc": "Government-grade payment platform with SSO & CDAP authentication, multi-gateway support and national security compliance.",
+          "impact": "250+ production bugs resolved",
+          "tags": ["Vue.js", "Laravel 10", "SSO", "MySQL"], "footer": "judipay.gov.bd", "url": "https://judipay.gov.bd",
+          "alt": "Judipay — Bangladesh Judiciary Payment System: government-grade payment platform with SSO & CDAP authentication, multi-gateway support and national security compliance. Impact: hardened the judiciary's payment flow; 250+ production bugs resolved." },
+        { "title": "Polytechnic Payment Portal", "status": "26 institutions", "icon": "cap", "color": "blue",
+          "desc": "Multi-role payment platform for 26 polytechnic institutions across Bangladesh, with Ekpay, Teletalk SMS and real-time transaction monitoring.",
+          "impact": "60% faster transaction processing",
+          "tags": ["Laravel 10", "MySQL", "Ekpay", "SMS gateway"], "footer": "polytechnic.aalo.xyz", "url": "https://polytechnic.aalo.xyz",
+          "alt": "Polytechnic Payment Portal: multi-role payment platform for 26 polytechnic institutions across Bangladesh, with Ekpay, Teletalk SMS and real-time transaction monitoring. Impact: 60% reduction in transaction processing time." },
+        { "title": "Elite Stacks Capital", "status": "US fintech", "icon": "chart", "color": "green",
+          "desc": "Investment management platform with plan purchasing, multi-tier user roles, external API integration and real-time data sync.",
+          "impact": "plan management for 500+ active users",
+          "tags": ["Next.js 15", "TypeScript", "Shadcn UI", "REST"], "footer": "elitestakescap.com", "url": "https://www.elitestakescap.com",
+          "alt": "Elite Stacks Capital — US fintech dashboard: investment management platform with plan purchasing, multi-tier user roles, external API integration and real-time data sync. Impact: streamlined plan management for 500+ active users." },
+        { "title": "Payroll CRM", "status": "enterprise HR", "icon": "briefcase", "color": "amber",
+          "desc": "Automated payroll with dynamic reporting, leave management, attendance tracking and KPI dashboards.",
+          "impact": "40% less HR processing time",
+          "tags": ["Laravel 9", "MySQL", "Voyager"], "footer": "dev-hrpay.softbd.xyz", "url": "https://dev-hrpay.softbd.xyz",
+          "alt": "Payroll CRM — enterprise HR management: automated payroll with dynamic reporting, leave management, attendance tracking and KPI dashboards. Impact: 40% less HR processing time through automation." }
+      ],
+      "more": { "text": "Browse all my repositories →", "url": "https://github.com/ujjal-kumar-roy?tab=repositories" }
+    },
+    {
+      "type": "tiles", "name": "recognition", "cols": 3,
+      "label": "Recognition", "chip": "academics & contests", "label_color": "amber",
+      "alt_prefix": "Recognition: ",
+      "items": [
+        { "value": "3.85", "label": "CGPA out of 4.00 · BSc CSE, Green University of Bangladesh", "icon": "cap", "color": "blue" },
+        { "value": "5×", "label": "Vice Chancellor's Award for outstanding semester results", "icon": "trophy", "color": "green" },
+        { "value": "4×", "label": "Dean's Award for academic excellence", "icon": "medal", "color": "purple" },
+        { "value": "2×", "label": "First Runner-Up in university programming contests", "icon": "star", "color": "amber" },
+        { "value": "314+", "label": "problems solved on LeetCode, URI/Beecrowd and HackerRank", "icon": "code", "color": "teal" }
+      ]
+    },
+    {
+      "type": "github", "name": "activity",
+      "label": "GitHub activity", "chip": "redrawn every night", "label_color": "green",
+      "collapsed": "Click to see my contribution streak and activity graphs"
+    },
+    {
+      "type": "cta", "name": "contact",
+      "label": "Let's work together", "chip": "remote · hybrid · onsite", "label_color": "purple",
+      "title": "Hiring for a senior full-stack, frontend or backend role?",
+      "body": "React and Next.js on the frontend, Node.js and NestJS on the backend. Full-time or contract.",
+      "note": "ujjalroy7862@gmail.com · Dhaka, Bangladesh (UTC+6)",
+      "stamp": ["I reply", "within a day"],
+      "color": "blue",
+      "href": "mailto:ujjalroy7862@gmail.com?subject=Opportunity%20for%20Ujjal%20Kumar%20Roy",
+      "alt": "Hiring for a senior full-stack, frontend (React / Next.js) or backend (Node.js / NestJS) role? Email ujjalroy7862@gmail.com. I reply within a day.",
+      "links": ["mail", "linkedin", "globe"]
+    }
+  ],
+
+  "views_badge": "https://komarev.com/ghpvc/?username=ujjal-kumar-roy&color=ff5a36&style=flat-square&label=Profile+Views",
+  "footer": "<i>Ujjal Kumar Roy — senior full-stack developer in Dhaka, Bangladesh · Next.js developer · React developer · TypeScript · Node.js and NestJS backend engineer · microservices · Redis · RabbitMQ · AWS · payment gateway integration · e-commerce, fintech and government web applications · available for remote work worldwide.</i>"
+}
