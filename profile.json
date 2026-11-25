@@ -176,7 +176,7 @@
     {
       "type": "github", "name": "activity",
       "label": "GitHub activity", "chip": "redrawn every night", "label_color": "green",
-      "collapsed": "Click to see my contribution streak and activity graphs"
+      "year_toggle": "Last 12 months"
     },
     {
       "type": "cta", "name": "contact",

@@ -48,7 +48,7 @@ Section types:
 | `cards` | Two-per-row cards (`title`, `status`, `desc`, `impact`, `tags`, `footer`, `url`). `linked: true` makes them clickable |
 | `chips` | Tech stack chip board (`groups` of `title`, `note`, `items`) plus an optional `details` table |
 | `timeline` | Experience stickers (`company`, `role`, `dates`, `desc`, `tags`) |
-| `github` | Stats, 6- and 12-month heatmaps and the 30-day line. `collapsed` puts them in a `<details>` |
+| `github` | Stats, 6- and 12-month heatmaps and the 30-day line. `year_toggle` tucks the 12-month map into a `<details>`; `collapsed` hides the whole section in one |
 | `repos` | Cards from your pinned repos (falls back to top-starred) |
 | `cta` | Contact banner with a stamp, linked to `href`, followed by the badges listed in `links` |
 

@@ -109,10 +109,13 @@ class Builder:
 
     def _github(self, s, slug):
         p, data, st = self.p, self.data, self.st
+        year = self.pic(self.emit("graph-12m", cards.heatmap, p, data, st, 12))
+        if s.get("year_toggle"):
+            year = f"<details><summary><b>{s['year_toggle']}</b></summary>\n\n{year}\n\n</details>"
         body = [
             self.pic(self.emit("stats", cards.stats, p, data, st)), "",
             self.pic(self.emit("graph-6m", cards.heatmap, p, data, st, 6)), "",
-            self.pic(self.emit("graph-12m", cards.heatmap, p, data, st, 12)), "",
+            year, "",
             self.pic(self.emit("line-30d", cards.line30, p, data, st)), "",
         ]
         if s.get("collapsed"):
