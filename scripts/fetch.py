@@ -10,6 +10,8 @@ import datetime as dt
 import json
 import os
 import random
+import time
+import urllib.error
 import urllib.request
 
 API = "https://api.github.com/graphql"
@@ -43,14 +45,24 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
 }"""
 
 
-def _gql(token: str, query: str, **variables) -> dict:
+def _gql(token: str, query: str, attempts: int = 4, **variables) -> dict:
     req = urllib.request.Request(
         API,
         data=json.dumps({"query": query, "variables": variables}).encode(),
         headers={"Authorization": f"bearer {token}", "User-Agent": "profile-readme-build"},
     )
-    with urllib.request.urlopen(req, timeout=60) as r:
-        out = json.load(r)
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                out = json.load(r)
+            break
+        except urllib.error.HTTPError as e:
+            if e.code < 500 and e.code not in (403, 429) or attempt == attempts:
+                raise
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == attempts:
+                raise
+        time.sleep(10 * attempt)
     if out.get("errors"):
         raise RuntimeError(out["errors"])
     return out["data"]
