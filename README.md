@@ -71,17 +71,17 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/label-activity-dark.svg"><img src="assets/label-activity-light.svg" width="100%" alt="GitHub activity"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="On GitHub: 10,163 contributions in the last year, a 356-day current streak, longest streak 356 days, 16,231 contributions since 2020, 186 public repos, 13 stars earned, 3 followers."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="On GitHub: 10,158 contributions in the last year, a 357-day current streak, longest streak 357 days, 16,240 contributions since 2020, 186 public repos, 13 stars earned, 3 followers."></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/graph-6m-dark.svg"><img src="assets/graph-6m-light.svg" width="100%" alt="3,856 contributions in the last 6 months"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/graph-6m-dark.svg"><img src="assets/graph-6m-light.svg" width="100%" alt="3,865 contributions in the last 6 months"></picture>
 
 <details><summary><b>Last 12 months</b></summary>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/graph-12m-dark.svg"><img src="assets/graph-12m-light.svg" width="100%" alt="10,186 contributions in the last 12 months"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/graph-12m-dark.svg"><img src="assets/graph-12m-light.svg" width="100%" alt="10,195 contributions in the last 12 months"></picture>
 
 </details>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/line-30d-dark.svg"><img src="assets/line-30d-light.svg" width="100%" alt="398 contributions in the last 30 days"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/line-30d-dark.svg"><img src="assets/line-30d-light.svg" width="100%" alt="388 contributions in the last 30 days"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/label-contact-dark.svg"><img src="assets/label-contact-light.svg" width="100%" alt="Let's work together"></picture>
 
